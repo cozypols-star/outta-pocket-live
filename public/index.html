@@ -110,6 +110,16 @@
     animation: fadeUp 1s ease 0.3s forwards;
     opacity: 0;
     line-height: 0.82;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 24px;
+  }
+
+  .hero-title-wrap img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
   }
 
   .hero-title {
@@ -366,6 +376,19 @@
     background: rgba(4,4,10,0.78); backdrop-filter: blur(3px);
   }
 
+  .rules-image-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .rules-image-wrap img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
   .rules-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
@@ -614,8 +637,8 @@
 <section id="rules">
   <div class="section-label reveal">Transmission 003</div>
   
-  <div class="" style="transition-delay:0.15s;" max-width: 100%; >
-    <img src="op-rules.png"> 
+  <div class="rules-image-wrap reveal" style="transition-delay:0.15s;">
+    <img src="op-rules.png" alt="Ground Control Rules">
   </div>
 </section>
 
